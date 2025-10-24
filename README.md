@@ -1,4 +1,4 @@
-# YOLOv11-
+# YOLOv11-headrate
 基于YOLOV系列模型检测抬头率在学生学习方面的应用
 
 参考：https://github.com/oanlit/headrate.git
