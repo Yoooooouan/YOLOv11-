@@ -1,0 +1,16 @@
+EarlyStopping: Training stopped early as no improvement observed in last 100 epochs. Best results observed at epoch 220, best model saved as best.pt.
+To update EarlyStopping(patience=100) pass a new patience value, i.e. `patience=300` or use `patience=0` to disable EarlyStopping.
+
+320 epochs completed in 0.267 hours.
+Optimizer stripped from C:\Users\Administrator\Desktop\YOLOv11\runs\detect\train6\weights\last.pt, 5.5MB
+Optimizer stripped from C:\Users\Administrator\Desktop\YOLOv11\runs\detect\train6\weights\best.pt, 5.5MB
+
+Validating C:\Users\Administrator\Desktop\YOLOv11\runs\detect\train6\weights\best.pt...
+Ultralytics 8.3.217  Python-3.9.24 torch-2.8.0+cu129 CUDA:0 (NVIDIA GeForce RTX 5070, 12227MiB)
+YOLO11n summary (fused): 100 layers, 2,582,542 parameters, 0 gradients, 6.3 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 10.7it/s 0.2s
+                   all         40        350      0.749      0.605      0.736      0.487
+                 Raise         20        273      0.882      0.521      0.726      0.425
+                 Lower         26         77      0.615      0.688      0.745      0.549
+Speed: 0.4ms preprocess, 1.1ms inference, 0.0ms loss, 0.8ms postprocess per image
+Results saved to C:\Users\Administrator\Desktop\YOLOv11\runs\detect\train6
